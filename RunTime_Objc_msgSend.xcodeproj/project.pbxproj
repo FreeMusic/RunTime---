@@ -14,7 +14,6 @@
 		05219CA11FD7813A001576B0 /* NewMyBill_回款-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05219C9E1FD7813A001576B0 /* NewMyBill_回款-01@2x.png */; };
 		05219CA21FD7813A001576B0 /* NewMyBill_其他@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05219C9F1FD7813A001576B0 /* NewMyBill_其他@2x.png */; };
 		05219CA31FD7813A001576B0 /* NewMyBill_充值@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05219CA01FD7813A001576B0 /* NewMyBill_充值@2x.png */; };
-		05219CAD1FD7829B001576B0 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 05219CA61FD7829B001576B0 /* MyClass.m */; };
 		05219CAE1FD7829B001576B0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 05219CA81FD7829B001576B0 /* Person.m */; };
 		05219CAF1FD7829B001576B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05219CAC1FD7829B001576B0 /* AppDelegate.m */; };
 		05219CB21FD782B4001576B0 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 05219CB11FD782B4001576B0 /* UIImage+Category.m */; };
@@ -24,6 +23,7 @@
 		052B0FBA1FD6290E008A8B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052B0FB81FD6290E008A8B05 /* LaunchScreen.storyboard */; };
 		052B0FC71FD6290F008A8B05 /* RunTime_Objc_msgSendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B0FC61FD6290F008A8B05 /* RunTime_Objc_msgSendTests.m */; };
 		052B0FD21FD6290F008A8B05 /* RunTime_Objc_msgSendUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B0FD11FD6290F008A8B05 /* RunTime_Objc_msgSendUITests.m */; };
+		0531EF6E1FEB824800EB15F2 /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 0531EF6D1FEB824800EB15F2 /* Students.m */; };
 		053948641FDE83DA00DDB7DC /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 053948631FDE83DA00DDB7DC /* UIView+Category.m */; };
 		053948671FDE85F400DDB7DC /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 053948661FDE85F400DDB7DC /* UIButton+Category.m */; };
 		0539486A1FDE89B200DDB7DC /* SXYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 053948691FDE89B200DDB7DC /* SXYTools.m */; };
@@ -56,8 +56,6 @@
 		05219C9E1FD7813A001576B0 /* NewMyBill_回款-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewMyBill_回款-01@2x.png"; sourceTree = "<group>"; };
 		05219C9F1FD7813A001576B0 /* NewMyBill_其他@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewMyBill_其他@2x.png"; sourceTree = "<group>"; };
 		05219CA01FD7813A001576B0 /* NewMyBill_充值@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewMyBill_充值@2x.png"; sourceTree = "<group>"; };
-		05219CA51FD7829B001576B0 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
-		05219CA61FD7829B001576B0 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		05219CA71FD7829B001576B0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		05219CA81FD7829B001576B0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		05219CAB1FD7829B001576B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +74,8 @@
 		052B0FCD1FD6290F008A8B05 /* RunTime_Objc_msgSendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTime_Objc_msgSendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		052B0FD11FD6290F008A8B05 /* RunTime_Objc_msgSendUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTime_Objc_msgSendUITests.m; sourceTree = "<group>"; };
 		052B0FD31FD6290F008A8B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0531EF6C1FEB824800EB15F2 /* Students.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		0531EF6D1FEB824800EB15F2 /* Students.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
 		053948621FDE83DA00DDB7DC /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		053948631FDE83DA00DDB7DC /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		053948651FDE85F400DDB7DC /* UIButton+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 		05219CA41FD7829B001576B0 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				05219CA51FD7829B001576B0 /* MyClass.h */,
-				05219CA61FD7829B001576B0 /* MyClass.m */,
+				0531EF6C1FEB824800EB15F2 /* Students.h */,
+				0531EF6D1FEB824800EB15F2 /* Students.m */,
 				05219CA71FD7829B001576B0 /* Person.h */,
 				05219CA81FD7829B001576B0 /* Person.m */,
 				053948681FDE89B200DDB7DC /* SXYTools.h */,
@@ -360,8 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05219CAD1FD7829B001576B0 /* MyClass.m in Sources */,
 				05219C9D1FD77D4C001576B0 /* ViewController.m in Sources */,
+				0531EF6E1FEB824800EB15F2 /* Students.m in Sources */,
 				05219CB51FD788E5001576B0 /* NSObject+Category.m in Sources */,
 				053948671FDE85F400DDB7DC /* UIButton+Category.m in Sources */,
 				05219CAE1FD7829B001576B0 /* Person.m in Sources */,

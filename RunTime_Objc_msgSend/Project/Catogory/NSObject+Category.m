@@ -8,6 +8,7 @@
 
 #import "NSObject+Category.h"
 #import <objc/runtime.h>
+#import <objc/message.h>
 /**
  *  重写set get方法 内部用runtime给属性赋值取值
  */

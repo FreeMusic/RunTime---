@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MyClass.h"
+#import "Students.h"
 #import "Person.h"
 #import "NSObject+Category.h"
 #import "UIView+Category.h"
@@ -40,21 +40,21 @@
 - (void)exchangeMethodExecutionSequence{
     //MyClass *myClass = [[MyClass alloc] init];
     
-    Method method1 = class_getClassMethod([MyClass class], @selector(run));
+    Method method1 = class_getClassMethod([Students class], @selector(run));
     
     //Method method2 = class_getClassMethod([MyClass class], @selector(study));
     
-    Method method3 =class_getClassMethod([Person class], @selector(goHome));
+    Method method3 =class_getClassMethod([Students class], @selector(goHome));
     
     method_exchangeImplementations(method1, method3);
     
-    [MyClass run];
+//    [[Students alloc] init];
+//
+//    SEL sel = NSSelectorFromString(@"1111");
     
     [Person goHome];
     
     [[[Person alloc] init] goSchool];
-    
-    //[MyClass study];
 }
 /**
  *  拦截系统的方法

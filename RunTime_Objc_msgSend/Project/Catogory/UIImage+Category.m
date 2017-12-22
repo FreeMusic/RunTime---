@@ -28,7 +28,6 @@ static CGFloat iPhoneXHeight = 812;
     return [UIImage JZ_imageNamed:name];
 }
 
-
 + (void)load{
     
     Method method1 = class_getClassMethod([UIImage class], @selector(imageNamed:));
